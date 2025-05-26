@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:controller="MapGame.TitleController" xmlns:fx="http://javafx.com/javafx"
+    alignment="CENTER">
+	<children>
+        <ImageView>
+            <Image url = "/png/title.png" />
+        </ImageView>
+        
+		<Button onAction="#onStartAction"
+			text="START">
+		</Button>
+	</children>
+</VBox>

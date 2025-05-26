@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:controller="MapGame.GameClearController" xmlns:fx="http://javafx.com/javafx"
+    alignment="CENTER">
+	<children>
+        <ImageView>
+            <Image url = "/png/GameClear.png" />
+        </ImageView>
+        
+		<Button onAction="#onStartAction"
+			text="Return to Title">
+		</Button>
+	</children>
+</VBox>
